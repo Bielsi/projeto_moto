@@ -1,0 +1,48 @@
+#batatinha{
+    float: left;
+    height: 300px;
+    width: 400px;
+}
+
+#textto1{
+    position: absolute;
+    left: 400px;
+}
+
+#texto1{
+    position: absolute;
+    left: 400px;
+    top: 150px;
+}
+
+#entrar{
+    position: absolute;
+    right: 20px;
+}
+
+#logar{
+    position: absolute;
+    right: 80px;
+}
+
+#text2{
+    position: absolute;
+    left: 400px;
+}
+
+#asfalto{
+    float: left;
+    height: 300px;
+    width: 400px;
+}
+
+#texto3{
+    position: absolute;
+    left: 400px;
+}
+
+#trilha{
+    float: left;
+    height: 300px;
+    width: 400px;
+}
