@@ -3,85 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/sobre.css">
-    <title>Exemplo de Página HTML</title>
-    <style>
-        /* Estilo geral */
-        body {
-            font-family: sans-serif;
-        }
-
-        /* Menu */
-        .menu {
-            background-color: #000000;
-            padding: 20px;
-            width: auto;
-            margin: 0px;
-        }
-
-        .menu ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .menu li {
-            display: inline-block;
-            margin-right: 20px;
-        }
-
-        .menu li a {
-            text-decoration: none;
-            color: white;
-        }
-
-        /* Blocos */
-        .bloco {
-            width: auto;
-            height: 300px;
-            background-color: #ccc;
-            margin: 10px;
-            padding: 20px;
-            margin-left: 0px;
-            margin-right: 0px;
-        }
-
-        /* Rodapé */
-        .rodape {
-            background-color: #f0f0f0;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="src/assets/css/style.css">
+    <title>Motoca</title>
 </head>
-<body>
-    <div class="menu">
-        <ul>
-            <li><a href="index.html">Página Inicial</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-            <li id="entrar"><a href="#">Entrar</a></li>
-            <li id="logar"><a href="login.html">Logar</a></li>
-        </ul>
-    </div>
+<html>  
+    <body>
+        <div class="Menu">
+            <div class="botoes">
+                <a href="index.html"><button onclick="window.location.href='compra.html'" class="botao1"> Pagina Inicial </button></a>
+                <a href="sobre_nos.html"><button class="botao2"> Sobre </button></a>
+                <button onclick="window.location.href='https://www.google.com/'" class="botao3">Contato</button>
 
-    <div class="bloco">
-        <h2 id="textto1">Motocross</h2>
-        <img id="batatinha" src="img/motocross.png" alt="Motos de motocross">
-    </div>
+                    <div class="pesquisar">
+                        <form>
+                            <input type="text" name="pesquisa" placeholder="Barra so por enfeite, nao tivemos verba para continuar">
+                            <button type="submit">Pesquisar</button>
+                        </form>
+                    </div>
+                <button class="botao4"> carrinho </button>
+                <button class="botao5"> Register </button>
+                <a href="src/login/login.html"><button class="botao6"> Login </button></a>
+            </div>
+        </div>
+        <h1 class="titulo"> Modelos</h1>
+            <div class="linha">
+                <div class="street">
+                    <h2>Street</h2>
+                </div>
+            </div>
+        <div class="produtos1">
+            <button class="produto11">
+                <img id="moto" src="src/assets/img/asfalto.png" alt="cb 300f">
+                <span>CB 300F Twister</span>
+            </button>
+            
+            <button class="produto12">
+                <img id="moto" src="src/assets/img/160.png" alt="160">
+                <a href="src/pagina_compra/160.html"><span>    CG 160 Titan</span></a>
+            </button>
 
-    <div class="bloco">
-        <h2 id="text2">Asfalto</h2>
-        <img id="asfalto" src="img/asfalto.png" alt="Motos de asfalto">
-    </div>
+            <button class="produto13">
+                <img id="moto" src="src/assets/img/cb500.png" alt="cb1000">
+                <a href="src/pagina_compra/cb500.html"><span>        CB 500F</span></a>
+            </button>
+    
+        </div>
+        
 
-    <div class="bloco">
-        <h2 id="texto3">Trilha</h2>
-        <img id="trilha" src="img/trilha.png" alt="Motos de trilha"
-    </div>
+        <div class="linha">
+            <div class="street">
+                <h2>Off Road</h2>
+            </div>
+        </div>
+        
+        <div class="produtos2">
+            <button class="produto21">
+                <img id="moto" src="src/assets/img/CRF250f.png" alt="CRF250f">
+                <a href="CRF250f.html"><span>      CRF 250f</span></a>
+            </button>
+            <button class="produto22">
+                <img id="moto" src="src/assets/img/crf250r.png" alt="crf250r">
+                <a href="crf250r.html"><span>       CRF 250r</span></a>
+            </button>
+            <button class="produto23">
+                <img id="moto" src="src/assets/img/crf450.png" alt="crf450">
+                <a href="crf450.html"><span>          crf450</span></a>
+            </button>
+        </div>
+        
+        <div class="linha">
+            <div class="street">
+                <h2>Adventure</h2>
+            </div>
+        </div>
+        
+        <div class="produtos3"> 
+            <button class="produto31">
+                <img id="moto" src="src/assets/img/nxr160.png" alt="nrx">
+                <a href="nxr160.html"><span>NRX 160 Bross</span></a>
+            </button>
+            <button class="produto32">
+                <img id="moto" src="src/assets/img/ADV.png" alt="ADV">
+                <a href="adv.html"><span>     Honda ADV</span></a>
+            </button>
+            <button class="produto33">
+                <img id="moto" src="src/assets/img/cb500x.png" alt="cb500x">
+                <a href="cb500x.html"><span>       CB 500x</span></a>
+            </button>
+        </div>
 
-    <div class="rodape">
-        <p>&copy; 2024 - Todos os direitos reservados</p>
-    </div>
-</body>
+        <div class="rodape">
+            <footer>Sua motinha faz ran dan dan dan</footer>
+        </div>
+    
+    </body>
+
 </html>
